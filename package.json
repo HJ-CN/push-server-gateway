@@ -1,0 +1,36 @@
+{
+  "name": "push-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/.bin/nodemon ./dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jun-GitHub/push-server-gateway.git"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "restify": "^4.0.3",
+    "winston": "^2.0.0",
+    "fs-extra": "^0.23.1",
+    "colors": "^1.1.2",
+    "tracer": "^0.7.4",
+    "mime": "^1.3.4",
+    "mongoose": "^4.1.2",
+    "request": "^2.60.0",
+    "async":"^1.2.0",
+    "superagent": "^1.4.0"
+
+  },
+  "author": "ljl52099@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.8.30",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.3.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "nodemon": "^1.8.0"
+  }
+}

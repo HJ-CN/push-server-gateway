@@ -1,0 +1,13 @@
+{
+  "env": "development",
+  "host": "http://localhost",
+  "logDir": "./log",
+  "db": {
+    "name": "push-server"
+  },
+  "upload": {
+    "path": "/upload",
+    "tmp": "/tmp",
+    "img": "/image_sources"
+  }
+}
